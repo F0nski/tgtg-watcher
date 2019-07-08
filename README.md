@@ -33,10 +33,10 @@ First of all, copy the `example_config.json` file to `config.json` and edit the 
 
 To ensure that everything is well configured, just go in the project's folder and type:
 
-```npm tgtg-watcher.js show```
+```node tgtg-watcher.js show```
 
 If it shows your list of favourite, you're all good. Else, just check your configuration or the Android APP version number.
 
 Then, and finally, to run the watcher, type:
 
-```npm tgtg-watcher.js email```
+```node tgtg-watcher.js email```

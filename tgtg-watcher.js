@@ -3,9 +3,6 @@ const nodemailer = require('nodemailer');
 const fs = require('fs');
 const { promisify } = require('util')
 
-var email = config.TGTG_USER;
-var password = config.TGTG_PASSWORD;
-
 const base_url = "https://apptoogoodtogo.com/index.php/api_tgtg/";
 
 const readFileAsync = promisify(fs.readFile)
@@ -16,6 +13,9 @@ const main = async () => {
 
   const res = await readFileAsync('config.json');
   const config = JSON.parse(res);
+
+  var email = config.TGTG_USER;
+  var password = config.TGTG_PASSWORD;
 
   var base_headers = {
     'accept': 'application/json',
