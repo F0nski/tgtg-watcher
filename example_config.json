@@ -1,0 +1,10 @@
+{
+	"TGTG_USER": "john",
+	"TGTG_PASSWORD": "dragon123",
+	"FREQUENCY": 1,
+	"EMAIL_SENDER": "john@gmail.com",
+	"EMAIL_PASSWORD": "asdakjtfd23qsdfl",
+	"EMAIL_RECIPIENTS": "john@gmail.com,toto@gmail.com",
+	"ANDROID_APP_VERSION": "19.6.0",
+	"MIN_TIME_BETWEEN_MAIL": 360,
+}
